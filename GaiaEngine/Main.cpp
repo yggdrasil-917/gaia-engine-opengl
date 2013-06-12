@@ -5,8 +5,6 @@
 #include "IMeshBuffer.hpp"
 
 using namespace gaia::core;
-#include <stdlib.h>
-#include <GL/glfw.h>
  
 void Init(void);
 void Shut_Down(int return_code);
@@ -124,27 +122,6 @@ void Draw(void)
 
 //int main(int argc, char **argv)
 //{
-//	if (!glfwInit())
-//	{
-//		std::cout << "Failed to initialize glfw\n";
-//		return 1;
-//	}
-//	if (!glfwOpenWindow(300, 300, 5, 6, 5, 0, 0, 0, GLFW_WINDOW))
-//	{
-//		std::cout << "Failed to create window\n";
-//		return 1;
-//	}
-//	
-//	glfwSetWindowTitle("The GLFW Window");
-//	bool running = true;
-//	while (running)
-//	{
-//		glClear(GL_COLOR_BUFFER_BIT);
-//		glfwSwapBuffers();
-//		running = !glfwGetKey(GLFW_KEY_ESC) && glfwGetWindowParam(GLFW_OPENED);
-//	}
-//	glfwTerminate();
-
 	//Vector2D v1 = Vector2D(1.0f, 2.0f);
 	//Vector2D v2 = Vector2D(2.0f, 1.0f);
 
